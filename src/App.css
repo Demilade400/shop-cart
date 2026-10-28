@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  background-color: #222;
+   font-family:system-ui, 'Segoe UI', Roboto, sans-serif; 
+  --mono: ui-monospace, Consolas, monospace;
+}
+
+.header{
+  font-family:system-ui, 'Segoe UI', Roboto, sans-serif; 
+  --mono: ui-monospace, Consolas, monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222;
+  color: pink;
+  border-bottom: solid pink 2px;
+}
+
+.header ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main{
+  color: pink;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.main p{
+  margin-top: 0;
+}
+
+.main h2{
+  margin-bottom: 0;
+}
+
+ul a{
+  text-decoration: none;
+  color: pink;
+}
+
+
+.shop{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product img{
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.product h4{
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.product p{
+  color: #ddd;
+}
+
+.product button{
+  background-color: pink;
+  padding: 10px;
+  border-radius: 20px;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart-item img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-top: 40px;
+}
+
+
+.cart{
+  margin-left:100px ;
+  color: pink;
+}
+
+.cart-btn{
+  background-color:pink ;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bolder;
+
+
+}
